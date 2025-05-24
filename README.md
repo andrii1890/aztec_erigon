@@ -58,6 +58,7 @@ To learn more about how Aztec achieves these things, check out the Aztec concept
     mkdir -p $HOME/aztec_erigon/data/erigon/
     mkdir -p $HOME/aztec_erigon/data/aztec/
     cd $HOME/aztec_erigon/
+    sudo chown -R 1000:1000 ./data/erigon
     nano .env
     ```
 - **Spinup all containers**
